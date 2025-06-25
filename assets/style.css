@@ -1,6 +1,25 @@
 body {
     background-color: rgb(42, 128, 105);
     font-family: Chakra Petch;
+    color: white;
+}
+
+#container {
+    display: flex;
+}
+
+.cartao {
+    margin: 1rem 1rem;
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+.cartao__conteudo {
+    text-align: center;
+    background-color: aquamarine;
+    height: 100%;
 }
 
 footer {
