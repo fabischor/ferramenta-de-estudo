@@ -5,13 +5,14 @@ function criaCartao(categoria, pergunta, resposta) {
 
   cartao.innerHTML = `
   <div class="cartao__conteudo">
-    <h3>Matemática</h3>
+    <h3>${categoria}</h3>
    <div class="cartao__conteudo__pergunta">
-   <p>O que é o número Pi?</p>
+   <p>${pergunta}</p>
    </div>
   <div class="cartao__conteudo__resposta">
-   <p>O número Pi é um número irracional, obtido pela divisão do comprimento da circunferência pelo seu diâmetro.</p>
+   <p>${resposta}</p>
    </div>
    </div>
    `
+  container.appendChild(cartao)
 }
